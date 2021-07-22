@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , shrink-to-fit=no">
+    <title>Linkedin Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "container" id = "no-border">
+        <div class="row">
+            <div class="d-none d-md-block flex col-2">  
+                <!-- Left -->       
+            </div>
+            <!-- Center of LinkediN Page-->
+            <div class="col">
+                <div class = "linkedin_content">
+                    <!-- LinkedIN Navbar-->
+                    <div class="container" id = "container-navbar">
+                        <div class="row">
+                            <nav class="navbar navbar-expand justify-content-between fixed-top navbar-light" style="background-color: #e3f2fd;">
+                                <div class="container-fluid">
+                                    <form class="d-flex">
+                                        <a class="navbar-brand" href="#">
+                                            <img src = "images/linkedin_logo.png" alt = "linkedin_logo" width = "30" height = "30">
+                                        </a>
+                                        <a class="navbar-brand" href="#">
+                                            <img src = "icons/search.svg" alt = "serach_icon" width = "15" height = "15">
+                                        </a>
+                                        <input class="form-control me-2" 
+                                        type="search" placeholder="Search" aria-label="Search">
+                                    </form>
+                                    <div class="container" id = "no-border">
+                                        <ul class = "navbar-nav nav-justified text-center w-100">
+                                            <li class = "nav-item">
+                                                <a href = "#" class = "nav-link d-flex flex-column">
+                                                    <span>                                                    
+                                                        <img src = "icons/home.png" width = "30" height = "30">
+                                                    </span>
+                                                    <span class = "d-none d-sm-inline">Home</span>
+                                                </a>
+                                            </li>
+                                            <li class = "nav-item">
+                                                <a href = "#" class = "nav-link d-flex flex-column">
+                                                    <span>                                                    
+                                                        <img src = "icons/my_network.png" width = "30" height = "30">
+                                                    </span>
+                                                    <span class = "d-none d-sm-inline">Network</span>
+                                                </a>
+                                            </li>
+                                            <li class = "nav-item">
+                                                <a href = "#" class = "nav-link d-flex flex-column">
+                                                    <span>                                                    
+                                                        <img src = "icons/suitcase.svg" width = "30" height = "30">
+                                                    </span>
+                                                    <span class = "d-none d-sm-inline">Jobs</span>
+                                                </a>
+                                            </li>
+                                            <li class = "nav-item">
+                                                <a href = "#" class = "nav-link d-flex flex-column">
+                                                    <span>                                                    
+                                                        <img src = "icons/messaging.svg" width = "30" height = "30">
+                                                    </span>
+                                                    <span class = "d-none d-sm-inline">Messaging</span>
+                                                </a>
+                                            </li>
+                                            <li class = "nav-item">
+                                                <a href = "#" class = "nav-link d-flex flex-column">
+                                                    <span>                                                    
+                                                        <img src = "icons/bell.svg" width = "30" height = "30">
+                                                    </span>
+                                                    <span class = "d-none d-sm-inline">Notifcations</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="container-photo">
+                        <img src = "images/cover_photo.jpg" class = "img-fluid rounded-bottom" id = "cover-pic">
+                        <img src = "images/profile_pic.jpg" class = "img-fluid rounded-circle" id = "profile-pic"> 
+                    </div>
+                    <div class = "container" id = "summary">
+                        <div class = "text-left">
+                            <ul style = "list-style: none;">
+                                <li><span class = "bold" id = "name">Scott Henderson </span><span class="subtitle">(he/him)</span></li>
+                                <li>Full-stack Developer</li>
+                                <li class id = "lighter">San Francisco Bay Area &#183;
+                                    <a href = "#" class = "text-primary">Contact Info</a></li>
+                                <!-- TODO: Fix formating for presentation
+                                - Get rid of text boxes -->
+                                <li>
+                                    <a href = "#" class = "text-primary">283 connections</a>
+                                </li>
+                                <button type="button" class="btn btn-primary rounded-pill btn-sm">
+                                    Open To
+                                </button>
+                            </ul>
+                        </div>
+                        <div class = "text-left">
+                            <div class = "item-logo">
+                                <ul style = "list-style: none;">
+                                    <li>
+                                        <img class = "logo-scale" src='images/starbucks.png' alt ='Starbucks logo'>
+                                            <span class = "skip">
+                                                <a href = "https://www.linkedin.com/company/starbucks?trk=public_profile_topcard-current-company" class = "text-primary">Starbucks</a>
+                                            </span>
+                                    </li>
+                                    <li>
+                                        <img class = "logo-scale" src='images/dc.png' alt = 'DigitalCrafts'> 
+                                            <span class="skip">
+                                                <a href = "https://www.linkedin.com/school/digitalcrafts/?trk=public_profile_topcard-school" class = "text-primary">DigitalCrafts</a>
+                                            </span>
+                                    </li>
+                                    <li>
+                                        <img class = "logo-scale" src='images/link_pic.png' alt = 'URL link icon'> 
+                                        <span class="skip">
+                                            <a href = "https://github.com/smhenderson89" class = "text-primary">Personal Website</a>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container flex-column">
+                        <div class = "row">
+                            <div class="title">
+                                <h5>About</h5>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <p>I am a Full Stack Developer seeking new career opportunities in the Bay Area in California. 
+                                I am attending the DigitalCrafts immersive full stack web development program. 
+                                What I love about programming is if you can dream it, you can make it happen. 
+                                I'm now looking for the right company to make my dreams a reality.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Experience -->
+                    <div class="container flex-column">
+                        <div class="row">
+                            <div class="title">
+                                <h5>Experience</h5>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/starbucks.png' alt ='Starbucks logo'> 
+                                </div>
+                            </div>
+                            <div class = "col">
+                                <p class = "bold">Barista</p>
+                                <p> Starbucks - Part-Time</p>
+                                <p class = "lighter">Nov 2019 - Present - 1 yr 9 mos </p>
+                                <p class = "lighter">Mountain View, California</p>
+                                <ul class = "dashed">
+                                    <li> Industrious and efficient team player characterized by positivity and professionalism. </li>
+                                    <li> Highly adaptable to an ever-changing environment. </li>
+                                    <li> Produced quality and food and beverage products while balancing customer interaction. </li>
+                                    <li> Proactively attended to store atmosphere and customer needs.</li>
+                                    <li> Entrusted with counting and distributing tips each week to staff. </li>
+                                    <li> Increased personal knowledge of coffee and food service rules and regulations.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/carroll_eg.png' alt ='Carroll Engineering logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Design Engineer</p>
+                                <p>Carroll Engineering  - Full -Time</p>
+                                <p class = "lighter">Sep 2017 - Nov 2018 - 1 yr 3 mos </p>
+                                <p class = "lighter">San Jose California</p>
+                                <ul class = "dashed">
+                                    <li> Prepared construction improvement plans for school and businesses. </li>
+                                    <li> Plans included ADA and accessible routes, site visits to assess extent of rework needed. </li>
+                                    <li> Drainage plan compliance for SWPPP (Storm water Pollution Prevent Plan) and C3/Santa Clara Valley Urban Runoff Pollution Prevention Program (SCVURPPP) documents.</li>
+                                    <li> Submitted plans to DSA (Department of State Architects) and responded to comments for construction approval.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/bkf.jpg' alt ='BKF Engineering Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Design Engineer</p>
+                                <p>BKF Engineering  - Full -Time</p>
+                                <p class = "lighter">Nov 2015 - Sep 2017 - 1 yr 11 mos </p>
+                                <p class = "lighter">Redwood City, California</p>
+                                <ul class="dashed">
+                                    <li> Prepared construction documents for underground utilities, grading and parking lot layouts  </li>
+                                    <li> Specific projects included:
+                                        <ul>
+                                            <li>Developed grading and drainage plan for 70-space parking lot redevelopment</li>
+                                            <li>Designed aircraft sewer discharge station, including 225 LF lateral and lift station retrofit </li>
+                                            <li>Researched and selected wireless controllers to retrofit existing water meters, in order to separately track usage by different clients on same system</li>
+                                            <li>Prepared grading and paving design for new guard station, including coordination with design-build supplier of guard station and structural slab </li>
+                                            <li>Designed emergency vehicle access pathway to senior center (AutoTURN)</li>
+                                        </ul>
+                                    </li>
+
+                                    <li> Supported senior project engineer on multiple larger projects for major high-tech client at NASA Ames Research Center site
+                                        <ul>
+                                            <li>Made pre-construction modifications to address change requests from client </li>
+                                            <li>Prepared responses to comments from multiple review agencies</li>
+                                            <li>Resolved construction issues with owner’s rep and contractor</li>
+                                            <li> Prepared responses to contractor RFIs/submittals and revised designs when needed</li>
+                                            <li>Calculated cost estimates for capital improvement plans for 1,000 acre leasehold and maintained overall cost database for alternative design scenarios</li>
+                                        </ul>
+                                    <li>  Improved SWPPP inspections process for six separate construction projects
+                                        <ul>
+                                            <li>Wrote governing SWPPP document for each site</li>
+                                            <li> Established rotating SWPPP inspections using a standardized approach to document critical and maintenance issues with each contractor</li>
+                                        </ul>
+                                    <li> Helped Maintain BKF’s database of site utility information
+                                        <ul>
+                                            <li>Verified accuracy and completeness of survey information for implementation into GIS, and then utilized GIS downloads to update site base files</li>
+                                            <li>Maintained survey point database for large land development project</li>
+                                            <li> Coordinated construction notes standard for use on future construction projects </li>
+                                        </ul>
+                                    </li>
+                                    <li>Assisted in training and onboarding of new hires and summer interns</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/Luk.jpg' alt ='Luk & Associates logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Project Surveyor/Project Engineer</p>
+                                <p>Luk and Associates</p>
+                                <p class = "lighter">Oct 2014 - Oct 2015 - 1 yr 1 mos </p>
+                                <p class = "lighter">Hercules, California</p>
+                                <ul class = "dashed">
+                                    <li> Review construction design plans for accuracy and conflicts </li>
+                                    <li> Prepare topographic maps and American Land Title Association surveys </li>
+                                    <li> Prepare cut sheets and staking plots for construction</li>
+                                    <li> Prepare and maintain monitoring reports measuring vertical and horizontal movement</li>
+                                    <li> Process surveying data for topographic and design work</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/hfh.jpg' alt ='Habitat for Humanity Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Habitat for Humanity Greater San Francisco</p>
+                                <p class = "lighter">6 mos </p>
+                                <p class = "lighter">San Francisco, California</p>
+                                <br>
+                                <p class = "bold">Electrical Intern</p>
+                                <p class = "lighter">August 2014 &#183 1 mo</p>
+                                <p>I worked on learning residential electrical wiring. 
+                                    I worked on reading plans for layout of circuit runs, 
+                                    drilling holes, wiring up boxes, testing wiring for completed circuits, 
+                                    and installing finish trim.</p>
+                                <br>
+                                <p class = "bold">General Construction Intern</p>
+                                <p class = "lighter">Jun 2014 – Aug 2014 &#183 3 mos</p>
+                                <p>I managed over 20 volunteers constructing houses in San Francisco. 
+                                    I was responsible for ensuring volunteer work was up to code and 
+                                    ready to be inspected. I worked with volunteers and regular volunteers 
+                                    on wall framing, blind walls, sub floor, scaffolding installation and 
+                                    floor installation.</p>
+                                <br>
+                                <p class = "bold">Construction Leadership Intern</p>
+                                <p class = "lighter">Mar 2014 – Jun 2014 &#183 4 mos</p>
+                                <ul class = "dashed">
+                                    <li>Managed teams of 2-12 volunteers on a daily basis, more than 150 total volunteers, 
+                                        building houses for Habitat for Humanity</li>
+                                    <li>Teams built blind walls and installed roof shingling, 
+                                        scaffolding, waterproofing, framing & sheathing </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/engeo.png' alt ='Engeo Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Field Engineer</p>
+                                <p>ENGEO</p>
+                                <p class = "lighter">May 2013 - Oct 2013 &#183 6 mos</p>
+                                <p class = "lighter">San Jose, California</p>
+                                <ul class = "dashed">
+                                    <li> Inspected soil compaction, moisture percentage and concrete compressive strength on construction sites </li>
+                                    <li> Worked with site superintendents to ensure contract requirements were met </li>
+                                    <li> Prepared daily reports to inform project engineers of site progress </li>
+                                    <li> Wrote geotechnical reports for homes affected by the Christchurch earthquakes in New Zealand</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/tw.png' alt ='TheatreWorks Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Carpenter</p>
+                                <p>TheatreWorks</p>
+                                <p class = "lighter">Jul 2012 - Mar 2013 &#183 9 mos</p>
+                                <p class = "lighter">Palo Alto, California</p>
+                                <p>
+                                    I worked on the production of ten plays during my time at TheatreWorks. I built the sets for the productions, installed the sets on-site and uninstalled sets when the performance was completed. I also helped move the TheatreWorks warehouse from the Menlo Park to the Redwood City and Newark locations.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/uop.png' alt ='University of the Pacific Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">University of the Pacific</p>
+                                <p>Theater Technician & Stage Crew</p>
+                                <p class = "lighter">Oct 2007 - Mar 2012 &#183 4yrs 8 mos</p>
+                                <p class = "lighter">Stockton, California</p>
+                                <ul class = "dashed">
+                                    <li> Prop & Set Construction, Lighting Designer/Assistant Lighting Designer, Scenic Painter, Projector/Spotlight/Soundboard Operator, Run Crew. </li>
+                                    <li> Volunteer work: 20-40 hours per month, worked on 22 plays</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/navfac.png' alt ='NAVFAC Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Engineering Technician</p>
+                                <p>Naval Facilities Engineering Command (NAVFAC)</p>
+                                <p class = "lighter">Oct 2007 - Mar 2012 &#183 4yrs 8 mos</p>
+                                <p class = "lighter">Stockton, California</p>
+                                <ul class = "dashed">
+                                    <li>Co-leader managing $1 million contract for renovation of Navy Operations Support Center (NOSC) in San Jose. Organized and ran design review meetings with architects, the contractor and the Navy; coordinated and finalized the official Scope of Work document. Worked on the contract from bidding process through Pre-Construction meeting.</li>
+                                    <li>Reviewed and evaluated contractor Quality Control Plans, Accident Prevention Plans and Site Safety & Health Plans for compliance with government rules and regulations.</li>
+                                    <li>Conducted on-site safety inspections with contractors.</li>
+                                    <li>Reviewed and compiled Business Management System (BMS) into binders for easy office access and audit compliance.</li>
+                                    <li>Preformed 1st office Risk Assessment on NOSC contract and used as example for rest of the office contract.</li>
+                                    <li>Created training video on how to verify a review and digitally sign a contractor report.</li>
+                                    <li>Completed online classes in Masonry, Concrete, and General Construction.</li>
+                                    <li>Part of office that managed $125 million of contracts in one year. Average ROICC (Resident Officer in Charge of Construction) office manages $60-$90 million.</li>
+                                    <li>Coordinated with office manager to order supplies for office.</li>
+                                    <li>Organized paperwork and site plans for both Alameda and Moffett offices.</li>
+                                    <li>Assisted with IT support for the office.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class = "row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/copa.png' alt ='City of Palo Alto Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">Theatre Technician (Summer 2008 & 2009)</p>
+                                <p>Palo Alto Children's Theatre</p>
+                                <p class = "lighter">May 2009 - Aug 2009 &#183 4 mos</p>
+                                <p class = "lighter">Palo Alto, California</p>
+                                <p>
+                                    I worked during the summer of 2008 & 2009 on 12 plays for Palo Alto Children's Theater. I constructed the sets for productions during summer shows and coordinated between departments to ensure sets meets all specifications. I worked on the stage crews during performances, moving sets around on stage and operating the fly system. sets for the productions, installed the sets on-site and uninstalled sets when the performance was completed. I also helped move the TheatreWorks warehouse from the Menlo Park to the Redwood City and Newark locations.
+                                </p>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                    <!-- Education -->
+                    <div class="container flex-column">
+                        <div class="row">
+                            <div class="title">
+                                <h5>Education</h5>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/dc.png' alt ='DigitalCrafts Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">DigitalCrafts</p>
+                                <p>Full stack Development, Certificate of Completion Dec 2021</p>
+                                <p class = "lighter">2021 - 2021</p>
+                                <p>
+                                    DigitalCrafts is a top-rated coding bootcamp teaching the fundamentals of programming through an intensive classroom experience, transforming beginners into full-stack software engineers with cutting-edge skill sets.
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/uop.png' alt ='University of the Pacific Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">University of the Pacific</p>
+                                <p>Bachelor of Science (BS), Civil Engineering, Theatre Arts, Cum Lade</p>
+                                <p class = "lighter">2007 - 2012</p>
+                                <p class = "lighter">Activites and Societies: Association of Civil Engineers, Association of Computer Machinery, Theta Alpha Phi (Theatre Fraternity), Pacific Ulitmate Frisbee (Vice President)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Licenses & Certifications-->
+                    <div class="container flex-column">
+                        <div class="row">
+                            <div class="title">
+                                <h5>Licenses & Certifications</h5>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class = "resume_icon">
+                                    <img class = "resume" src='images/havardx.png' alt ='Harvard EDX Logo'> 
+                                </div>
+                            </div>
+                            <div class="col">
+                                <p class = "bold">CS50's Introduction to Computer Science</p>
+                                <p>Harvard on edx</p>
+                                <p>Issued Jan 2021 &#183 No Expiration Date</p>
+                                <p class = "lighter">Credential ID 1e6e9cf4-2cd6-53c9-9852-72c9c61db281</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block flex col-4">  
+                <!-- Left -->       
+            </div>
+        </div>
+    </div>
+</body>
+</html>
